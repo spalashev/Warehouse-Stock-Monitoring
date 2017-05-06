@@ -36,7 +36,7 @@ namespace EStore
         private void btnAddManufacturer_Click(object sender, EventArgs e)
         {
             string manufacturerName = Microsoft.VisualBasic.Interaction.
-             InputBox("Please, enter the name of the manufacturer.", "Add new manufacturer");
+             InputBox("Please, enter the name of the manufacturer!", "Add new manufacturer");
             if (manufacturerName.Length < 3)
             {
                 MessageBox.Show("Invalid manufacturer name. Manufacturer's name should be longer than 3 symbols.",
